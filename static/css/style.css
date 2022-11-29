@@ -1,0 +1,234 @@
+/*
+Common
+*****************************/
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(235, 238, 240);
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+.container {
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+/* 
+
+Posts****************************/
+
+.home .tweet-post .my-icon {
+    width: 80px;
+    padding: 5px 15px 10px 10px;
+}
+
+.home .ditch {
+    height: 15px;
+    border-top: 1px solid rgb(235, 238, 240);
+    border-bottom: 1px solid rgb(235, 238, 240);
+    background-color: rgb(247, 248, 248);
+    border-bottom: 1px solid rgb(235, 238, 240);
+}
+
+div.bottom-area {
+    font: 16px sans-sheriff;
+    padding: 8px 0px 0px;
+    display: block;
+    flex: content;
+}
+
+.button {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb;
+    padding-top: 8px;
+}
+
+.home .tweet-post .input-area .bottom-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(235, 238, 240);
+    padding-top: 8px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.home .tweet-post .input-area textarea {
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    
+}
+
+.home .tweet-post {
+    display: flex;
+    padding: 10px;
+}
+
+input#Tweet{
+    border-radius: 5px;
+    width: 10%;
+    background-color: #1DA1F2;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    
+}
+/*  */
+input[type="file"] {
+    width: auto;
+    border-radius: 5px;
+}
+/* 
+input#button {
+    width: 200px;
+} */
+
+.buttons{
+
+    display : flex;
+    justify-content: space-between;
+}
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form .name {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post_form textarea {
+    border: 0px;
+    padding: 10px;
+    width: 70%;
+    height: 100px;
+    resize: none;
+    background-color: #e6fef7;
+    }
+
+
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+    list-style: none;
+    position: relative;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .option_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.post li .menu a{
+    text-decoration: none;
+}
+.posts li .option_icon a {
+    text-decoration: none;
+}
+
+.posts li .logo img {
+    width: 60%;
+
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+.content .posts .option_icon{
+    width: 17px;
+    height: 17px;
+}
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
